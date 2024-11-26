@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+main > section {
+    flex-flow: column nowrap;
+    justify-content: space-between;   
+}
+
+main > section > picture#borda {
+    margin: 20px 0px;
+}
+
+main > section > picture {
+    margin: 20px 0px;
+}
+
+
+footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+

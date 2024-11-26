@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+header.a1,header.a1 {
+    flex-flow: column nowrap;      
+}
+
+header.a1 > h1 {
+    flex-basis: 50px;
+}
+
+header.a1 > nav {
+    display: none;
+}
+
+header.a1 > nav > a {
+    width: 90vw;
+    display: block;
+}
+
+header.a1 > span {
+    display: block;
+    color: white;    
+}
+
+
+img,div {
+    
+    align-self: self-start;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+main > article > p, picture {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+main > article {
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}

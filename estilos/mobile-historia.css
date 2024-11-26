@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+header > h1 {
+    font-size: 1.5em;
+}
+
+section.normal, section.imagem {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+section.imagem > p {
+    font-size: 2.5em;
+    line-height: 1.2em;
+    width: 250px;
+    border: 2px dotted black;
+}
+
+section.normal > p {
+    font-size: 2.5em;
+    line-height: 1.2em;
+}
