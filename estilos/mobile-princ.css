@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+
+
 header.a1,header.a1 {
     flex-flow: column nowrap;      
 }
+
 
 header.a1 > h1 {
     flex-basis: 50px;
@@ -53,3 +56,4 @@ footer {
     align-items: center;
 
 }
+
