@@ -85,10 +85,12 @@ section.imagem{
 }
 
 section.imagem > p {
+    color: black;
     display: inline-block;/* Ajustar a caixa de acordo com o texto*/
-    padding: 10px 10px;
-    background-color: #049dd94d;
-    text-shadow: 1.5px 2px 0px black;
+    padding: 10px 5px;
+    background-color: #edeff09f;
+    text-align: justify;
+   /* text-shadow: 1.5px 2px 3px black;*/
     border-radius: 10px;
     width: 400px;
    

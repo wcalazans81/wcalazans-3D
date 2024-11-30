@@ -4,21 +4,28 @@ header > h1 {
     font-size: 1.5em;
 }
 
-section.normal, section.imagem {
+section.normal {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     align-content: center;
 }
 
+
 section.imagem > p {
+    background-color: rgba(255, 255, 255, 0.815);
     font-size: 2.5em;
     line-height: 1.2em;
+    padding: 10px;
     width: 250px;
-    border: 2px dotted black;
+    /*border: 2px dotted black;*/
 }
 
 section.normal > p {
     font-size: 2.5em;
     line-height: 1.2em;
+}
+
+div#botao {
+    right: 5px;
 }
